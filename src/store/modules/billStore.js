@@ -20,14 +20,14 @@ const {setBillList} = billStore.actions
 //编写异步请求 并导出
 const getBillList = () => {
     return async (dispatch) => {
-        const res = await axios.get("http://localhost:8888/ka")
+        const res = await axios.get("https://tianyile-reactbilllist.onrender.com/ka")
         dispatch(setBillList(res.data))
     }
 }
 
 const addBillList = (data) => {
     return async (dispatch) => {
-        const res = await axios.post("http://localhost:8888/ka", data)
+        const res = await axios.post("https://tianyile-reactbilllist.onrender.com/ka", data)
         dispatch(setBillList(res.data))
     }
 }
