@@ -57,14 +57,14 @@ useEffect(() => {
   return (
     <div className="monthlyBill">
       <NavBar className="nav" backArrow={false}>
-        月度收支
+      Monthly Income and Expenses
       </NavBar>
       <div className="content">
         <div className="header">
           {/* 时间切换区域 */}
           <div className="date" onClick={() => setDateVisible(true)}>
             <span className="text">
-              {currentDate} 月账单
+              {currentDate} Monthly Bill
             </span>
             <span className={classNames('arrow', dateVisible && 'expand')}></span>
           </div>
@@ -72,21 +72,21 @@ useEffect(() => {
           <div className='twoLineOverview'>
             <div className="item">
               <span className="money">{monthResult.pay.toFixed(2)}</span>
-              <span className="type">支出</span>
+              <span className="type">Pay</span>
             </div>
             <div className="item">
               <span className="money">{monthResult.income.toFixed(2)}</span>
-              <span className="type">收入</span>
+              <span className="type">Income</span>
             </div>
             <div className="item">
               <span className="money">{monthResult.total.toFixed(2)}</span>
-              <span className="type">结余</span>
+              <span className="type">Total</span>
             </div>
           </div>
           {/* 时间选择器 */}
           <DatePicker
             className="kaDate"
-            title="记账日期"
+            title="Record Date"
             precision="month"
             visible={dateVisible}
             onClose={() => setDateVisible(false)}

@@ -53,14 +53,14 @@ const dateComfirm = (value) => {
             className={classNames(billType === 'pay' ? 'selected' : '')}
             onClick={() => {setBillType('pay')}}
           >
-            支出
+            Pay
           </Button>
           <Button
             className={classNames(billType === 'income' ? 'selected' : '')}
             shape="rounded"
             onClick={() => {setBillType('income')}}
           >
-            收入
+            Income
           </Button>
         </div>
 
