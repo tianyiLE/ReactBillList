@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# BillList
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Welcome to the BillList project! BillList is an intuitive financial tracking application designed to help users monitor and record their various income and expenditure records efficiently. With a user-friendly interface and easy navigation, BillList aims to simplify personal finance management for everyone.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+BillList is structured around three main pages, each designed to cater to different aspects of personal financial management:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Monthly Bills
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Monthly Bills page is the go-to destination for users looking to review their income and expenditure records for any given month. This feature allows users to quickly glance at their financial activities, helping them make informed decisions about their spending habits and budget management.
 
-### `npm test`
+![monthly](.\public\screenshot\monthly.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Add New Record
 
-### `npm run build`
+The Add New Record page is a straightforward and accessible way for users to input a new income or expenditure record. Whether it's a regular income source or an unexpected expense, this feature ensures that all financial activities can be easily added to the user's account, keeping their records up-to-date.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![addNew](.\public\screenshot\addNew.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Annual Bills
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Annual Bills page provides users with a comprehensive overview of their yearly financial activities. By aggregating income and expenditure records on an annual basis, users can assess their financial health over the long term, identify trends in their spending and earning patterns, and plan for the future more effectively.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![yearly](.\public\screenshot\yearly.png)
